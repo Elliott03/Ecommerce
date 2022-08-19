@@ -1,0 +1,54 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.container {
+    background-color: #EAE3D2;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
+    
+}
+
+.login {
+    color: #1C3879;
+}
+
+.usernametext {
+    color: #607EAA
+}
+
+.usernameinput {
+    border: 0;
+    border-radius: 5px;
+    height: 2em;
+}
+
+.passwordtext {
+    color: #607EAA;
+}
+
+.passwordinput {
+    border: 0;
+    border-radius: 5px;
+    height: 2em;
+}
+
+.submit {
+    background-color: #607EAA;
+    color: #F9F5EB;
+    border: 0;
+    border-radius: 5px;
+    width: 7em;
+    height: 2.5em;
+    cursor: pointer;
+}
+
+.orsignup {
+    color: #1C3879;
+}

@@ -1,0 +1,15 @@
+.username {
+    font-family: 'Rubik', sans-serif;
+}
+
+.button {
+    margin-top: 1em;
+    background-color: #607EAA;
+    border: 0;
+    border-radius: 5px;
+    font-size: .8rem;
+    height: 3em;
+    width: 8em;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
