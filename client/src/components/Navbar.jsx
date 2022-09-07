@@ -32,13 +32,16 @@ export default function Navbar(props) {
             </div>
             {!props.isProfile ? 
                         <div className={NavbarCSS.rightflex}>
-                        <input onChange={(e) => passSearchText(e.target.value)} type="text" className={NavbarCSS.searchtext} />
-                        <button onClick={search} type="button" className={NavbarCSS.submit}>
-                            <h4>Search</h4>
-                            <img src={Search} alt="search button" className={NavbarCSS.searchbutton} />
-                        </button>
-                        <Link className={NavbarCSS.rightsubflex}to="/profile">Profile</Link>
-                        
+                            <input onChange={(e) => passSearchText(e.target.value)} type="text" className={NavbarCSS.searchtext} />
+                            <div className={NavbarCSS.noshow}>
+
+                                <button onClick={search} type="button" className={NavbarCSS.submit}>
+                                    <h4>Search</h4>
+                                    <img src={Search} alt="search button" className={NavbarCSS.searchbutton} />
+                                </button>
+                            </div>
+                            <Link className={NavbarCSS.rightsubflex}to="/profile">Profile</Link>
+                            
                     </div> :<div></div>
             }
 

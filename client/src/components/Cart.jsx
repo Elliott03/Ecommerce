@@ -28,9 +28,6 @@ export default function Cart(props) {
 
     }, [cart])
 
-
-
-
     return (
         <div>
             {cartComp}

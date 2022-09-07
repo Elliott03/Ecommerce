@@ -12,6 +12,7 @@
 
 }
 
+
 .leftflex {
     flex: 1;
 }
@@ -66,4 +67,43 @@
 }
 .rightsubflex:hover {
     color: #EAE3D2;
+}
+
+@media screen and (max-width: 500px) {
+
+    .flexbox {
+        display: flex;
+        width: 95vw;
+        height: 8vh;
+        float: right;
+        align-items: center;
+    }
+    .rightflex {
+        flex: 1;
+    }
+    .leftflex {
+        flex: 1;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.2em;
+        float: left;
+        margin-left: 10px;
+    }
+    .rightsubflex {
+        float: left;
+        flex: 1;
+
+    }
+    .searchtext {
+        display: none;
+    }
+
+    .noshow {
+
+        display: none;
+    }
+
+
 }
